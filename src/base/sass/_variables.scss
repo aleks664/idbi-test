@@ -1,0 +1,50 @@
+// Font
+$font-family-base:'Montserrat', Arial, Helvetica, sans-serif;
+/**
+ * Grid system
+ * -----------------------------------------
+ */
+
+//Breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	smxs: 375px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px
+);
+// $devices
+$device-breakpoints: (
+	phone: xs,
+	tablet: md,
+	desktop: lg
+);
+
+$dark: #000;
+$light: #FFF;
+$warning: #FDC025;
+$secondary-dark: #0077D4;
+$secondary: #80BDEE;
+$secondary-light: #AAC4E1;
+$danger: #E34747;
+// Colors
+$theme-colors: (
+	"dark": $dark,
+	"light": $light,
+	"warning": $warning,
+	"secondary-dark": $secondary-dark,
+	"secondary": $secondary,
+	"secondary-light": $secondary-light,
+	"danger": $danger
+);
+
+$base-font-color: $dark;
+$font-link-color: $secondary-dark;
+
+// time
+$base-time-animation: 0.3s;
+
+$shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+

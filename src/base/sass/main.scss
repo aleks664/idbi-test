@@ -1,0 +1,39 @@
+/**
+ * normalize
+ */
+@import '../../../node_modules/normalize-scss/sass/normalize/import-now';
+@import '../../../node_modules/swiper/swiper.scss';
+
+/**
+ *
+ */
+@import './variables';
+
+/**
+ * Mixins
+ */
+@import '../../mixins/sass/modifer';
+@import '../../mixins/sass/sprite-svg';
+@import '../../mixins/sass/breakpoints';
+/**
+ * Vendor styles
+ */
+@import '../../vendor/vendor';
+/**
+ * Base
+ */
+@import "modifer";
+@import 'typography';
+@import 'base';
+
+
+/**
+ * Components
+ */
+@import '../../components/components';
+
+
+/**
+ * Modifer: !!! Warn, сonnected last !!!
+ */
+@import 'modifer';

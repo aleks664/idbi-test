@@ -1,0 +1,150 @@
+@use "sass:math";
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+	&_stroke {
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 2;
+	}
+
+}
+
+.icon-angle-right {
+    width: (20 / 21) * 1em;
+}
+.icon-angle-up {
+    width: (41 / 40) * 1em;
+}
+.icon-arrow-top-round {
+    width: (36 / 36) * 1em;
+}
+.icon-arrow-up-down {
+    width: (24 / 24) * 1em;
+}
+.icon-bag {
+    width: (24 / 24) * 1em;
+}
+.icon-bell {
+    width: (30 / 30) * 1em;
+}
+.icon-burger {
+    width: (30 / 30) * 1em;
+}
+.icon-call {
+    width: (25 / 24) * 1em;
+}
+.icon-cart {
+    width: (24 / 24) * 1em;
+}
+.icon-checked {
+    width: (14 / 9) * 1em;
+}
+.icon-close {
+    width: (20 / 20) * 1em;
+}
+.icon-credit-cards {
+    width: (30 / 30) * 1em;
+}
+.icon-delete {
+    width: (24 / 24) * 1em;
+}
+.icon-email {
+    width: (20 / 20) * 1em;
+}
+.icon-exit {
+    width: (25 / 24) * 1em;
+}
+.icon-filter {
+    width: (24 / 24) * 1em;
+}
+.icon-hand {
+    width: (30 / 30) * 1em;
+}
+.icon-heart {
+    width: (24 / 24) * 1em;
+}
+.icon-home {
+    width: (30 / 30) * 1em;
+}
+.icon-home2 {
+    width: (30 / 30) * 1em;
+}
+.icon-info {
+    width: (16 / 16) * 1em;
+}
+.icon-interaction {
+    width: (30 / 30) * 1em;
+}
+.icon-messages {
+    width: (36 / 36) * 1em;
+}
+.icon-minus {
+    width: (30 / 30) * 1em;
+}
+.icon-money {
+    width: (30 / 30) * 1em;
+}
+.icon-package-home {
+    width: (30 / 30) * 1em;
+}
+.icon-pen {
+    width: (30 / 30) * 1em;
+}
+.icon-phone {
+    width: (20 / 20) * 1em;
+}
+.icon-place {
+    width: (24 / 24) * 1em;
+}
+.icon-plus {
+    width: (30 / 30) * 1em;
+}
+.icon-question {
+    width: (30 / 30) * 1em;
+}
+.icon-search {
+    width: (24 / 24) * 1em;
+}
+.icon-share {
+    width: (24 / 25) * 1em;
+}
+.icon-star {
+    width: (22 / 22) * 1em;
+}
+.icon-status-1 {
+    width: (50 / 50) * 1em;
+}
+.icon-status-2 {
+    width: (50 / 50) * 1em;
+}
+.icon-status-3 {
+    width: (50 / 50) * 1em;
+}
+.icon-status-4 {
+    width: (50 / 50) * 1em;
+}
+.icon-status-5 {
+    width: (50 / 50) * 1em;
+}
+.icon-telegram {
+    width: (20 / 20) * 1em;
+}
+.icon-time {
+    width: (30 / 30) * 1em;
+}
+.icon-user {
+    width: (24 / 24) * 1em;
+}
+.icon-vk {
+    width: (20 / 20) * 1em;
+}
+.icon-warning {
+    width: (30 / 30) * 1em;
+}
+.icon-whatsapp {
+    width: (24 / 24) * 1em;
+}

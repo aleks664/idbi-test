@@ -1,0 +1,89 @@
+@mixin center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+body {
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	color: $base-font-color;
+	background-color: $light;
+	min-height: 100vh;
+	@include base-text-style;
+}
+
+*:after,
+*:before,
+* {
+	box-sizing: border-box;
+}
+
+.lnk,
+a {
+	text-decoration: underline;
+	transition: color $base-time-animation;
+	color: $font-link-color;
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+	}
+	&:hover {
+		border-bottom-color: currentColor;
+	}
+
+}
+
+.s-main {
+	position: relative;
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	@include media-breakpoint-up(lg) {
+		padding-top: 40px;
+	}
+	> *:not(.s-main-banner):first-child {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+.l-container {
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 16px;
+
+	&_fluid {
+		max-width: 100%;
+	}
+}
+
+p {
+	margin: 20px 0;
+}
+
+.lnk-abs {
+	position: absolute;
+	font-size: 0;
+	line-height: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border: none;
+}

@@ -1,0 +1,1265 @@
+{
+	"phone": "8 800 800 80 80",
+	"email": "sosedstvo@mail.ru",
+	"menu": [
+		{
+			"url": "about.html",
+			"ttl": "О нас"
+		},
+		{
+			"url": "delivery.html",
+			"ttl": "Доставка"
+		},
+		{
+			"url": "# ",
+			"ttl": "Юридическим лицам"
+		}
+	],
+	"mobileMenu": [
+		{
+			"url": "about.html",
+			"ttl": "О нас"
+		},
+		{
+			"url": "delivery.html ",
+			"ttl": "Доставка"
+		},
+		{
+			"url": "# ",
+			"ttl": "Юридическим лицам"
+		},
+		{
+			"url": "# ",
+			"ttl": "Ответы на вопросы"
+		}
+	],
+	"menuLk": [
+		{
+			"icon": "user",
+			"url": "account-data.html",
+			"ttl": "Мои данные"
+		},
+		{
+			"icon": "place",
+			"url": "account-address.html",
+			"ttl": "Мои адреса"
+		},
+		{
+			"icon": "time",
+			"url": "orders.html",
+			"ttl": "История заказов"
+		},
+		{
+			"icon": "bell",
+			"url": "account-notifications.html",
+			"ttl": "Уведомления",
+			"count": 2
+		},
+		{
+			"icon": "hand",
+			"url": "account-reviews.html",
+			"ttl": "Мои отзывы"
+		},
+		{
+			"icon": "interaction",
+			"url": "account-usercountacs.html",
+			"ttl": "Контактные лица"
+		},
+		{
+			"icon": "package-home",
+			"url": "method-obtaining.html",
+			"ttl": "Способ получения товара"
+		}
+	],
+	"footer": {
+		"logoDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+		"menu1": {
+			"ttl": "Для клиентов",
+			"list": [
+				{
+					"ttl": "Lorem ipsum dolor"
+				},
+				{
+					"ttl": "Lorem ipsum dolor"
+				},
+				{
+					"ttl": "Lorem ipsum dolor"
+				},
+				{
+					"ttl": "Lorem ipsum dolor"
+				}
+			]
+		},
+		"menu2": {
+			"ttl": "Для Юр. лиц",
+			"list": [
+				{
+					"ttl": "Lorem ipsum dolor"
+				},
+				{
+					"ttl": "Lorem ipsum dolor"
+				},
+				{
+					"ttl": "Lorem ipsum dolor"
+				}
+			]
+		},
+		"socials": [
+			{
+				"icon": "telegram"
+			},
+			{
+				"icon": "whatsapp"
+			}
+		]
+	},
+	"popups": {
+		"orderСancellation": {
+			"title": "Вы уверены, что хотите отменить заказ?",
+			"choiceBtns": true
+		},
+		"orderEdit": {
+			"title": "Вы уверены, что хотите изменить заказ?",
+			"txt": "Товары добавятся в корзину и необходимо будет пройти этап оформления повторно.",
+			"choiceBtns": true
+		},
+		"deleteAddress": {
+			"title": "Вы уверены, что хотите удалить адрес?",
+			"choiceBtns": true
+		},
+		"orderEstimate": {
+			"title": "Как Вы оцените заказ?",
+			"txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+			"choiceBtns": true
+		},
+		"orderReport": {
+			"title": "Заказ №123456 оформлен"
+		},
+		"productSoldout": {
+			"title": "К сожалению, данный товар распродан",
+			"txt": "Подпишитесь, чтобы получить оповещение о поступлении товара."
+		},
+		"feedbackThank": {
+			"title": "Ваш отзыв опубликован!",
+			"btnClose": {
+				"class": "btn_fluid",
+				"ttl": "OK"
+			}
+		},
+		"geo": {
+			"title": ""
+		}
+	},
+	"panel": {
+		"menu": [
+			{
+				"url": "home.html",
+				"icon": "home",
+				"ttl": "Главная"
+			},
+			{
+				"url": "catalog.html",
+				"icon": "bag",
+				"ttl": "Каталог"
+			},
+			{
+				"url": "cart.html",
+				"icon": "cart",
+				"count": "34",
+				"ttl": "Корзина"
+			},
+			{
+				"url": "favorites.html",
+				"icon": "heart",
+				"ttl": "Избранное"
+			},
+			{
+				"url": "#",
+				"icon": "burger",
+				"ttl": "Меню"
+			}
+		]
+	},
+	"home": {
+		"advantages": {
+			"list": [
+				{
+					"img": "images/b-advantages/adv-1.png",
+					"ttl": "По соседству — сервис доставки продуктов",
+					"desc": "Привет! Мы доставляем продукты по низким ценам, но с особенностью — доставка будет на следующий день."
+				},
+				{
+					"img": "images/b-advantages/adv-2.png",
+					"ttl": "Дешевле — не значит хуже",
+					"desc": "Мы хотим удешевить логистическую цепочку, чтобы Вы покупали продукты по оптовой цене, минуя посредников, поэтому требуется больше времени на доставку."
+				},
+				{
+					"img": "images/b-advantages/adv-3.png",
+					"ttl": "Доставим в срок до дверей",
+					"desc": "Достаточно выбрать продукты, указать адрес и время доставки. От геолокации зависят ассортимент, наличие, акции, скидки и многое другое!"
+				}
+			]
+		},
+		"actions": {
+			"list": [
+				{
+					"ttl": "Скидки <span>10%</span> на молочную продукцию до 20.04",
+					"img": "images/b-actions/action-1.png",
+					"class": " b-card-action_gradient-blue"
+				},
+				{
+					"ttl": "Скидки <span>35%</span> на овощи до 30.04",
+					"img": "images/b-actions/action-2.png",
+					"class":  " b-card-action_gradient-green"
+				},
+				{
+					"ttl": "Скидки <span>20%</span> на сырную продукцию до 30.04",
+					"img": "images/b-actions/action-3.png",
+					"class": " b-card-action_gradient-orange"
+				},
+				{
+					"ttl": "Скидки <span>10%</span> на молочную продукцию до 20.04",
+					"img": "images/b-actions/action-1.png",
+					"class": " b-card-action_gradient-blue"
+				},
+				{
+					"ttl": "Скидки <span>35%</span> на овощи до 30.04",
+					"img": "images/b-actions/action-2.png",
+					"class":  " b-card-action_gradient-green"
+				},
+				{
+					"ttl": "Скидки <span>20%</span> на сырную продукцию до 30.04",
+					"img": "images/b-actions/action-3.png",
+					"class": " b-card-action_gradient-orange"
+				},
+				{
+					"ttl": "Скидки <span>10%</span> на молочную продукцию до 20.04",
+					"img": "images/b-actions/action-1.png",
+					"class": " b-card-action_gradient-blue"
+				},
+				{
+					"ttl": "Скидки <span>35%</span> на овощи до 30.04",
+					"img": "images/b-actions/action-2.png",
+					"class":  " b-card-action_gradient-green"
+				},
+				{
+					"ttl": "Скидки <span>20%</span> на сырную продукцию до 30.04",
+					"img": "images/b-actions/action-3.png",
+					"class": " b-card-action_gradient-orange"
+				}
+			]
+		},
+		"new": {
+			"head": {
+				"ttl": {
+					"tagName": "h2",
+					"txt": "Новинки",
+					"class": "h3"
+				},
+				"link": {
+					"url": "#",
+					"ttl": "Смотреть все"
+				},
+				"sliderBtn": true
+
+			},
+			"products": {
+				"list": [
+					{
+						"sale": "-20%",
+						"fav": true,
+						"img": "images/b-products-carousel/product-1.png",
+						"ttl": "Молоко Домик в деревне 3.2%",
+						"rating": 4.5,
+						"price": {
+							"vol": "950 мл",
+							"old": "239 ₽",
+							"now": "189 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-2.png",
+						"ttl": " Джем Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega, ",
+						"rating": 4.8,
+						"price": {
+							"vol": "270 г",
+							"now": "280 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-3.png",
+						"ttl": "Добрый Кола",
+						"rating": 4,
+						"price": {
+							"now": "79 ₽",
+							"vol": "1 л"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-4.png",
+						"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+						"rating": 4,
+						"price": {
+							"vol": "900 мл",
+							"now": "109 ₽"
+						}
+					},
+					{
+						"sale": "-20%",
+						"fav": true,
+						"img": "images/b-products-carousel/product-1.png",
+						"ttl": "Молоко Домик в деревне 3.2%",
+						"rating": 4.5,
+						"price": {
+							"vol": "950 мл",
+							"old": "239 ₽",
+							"now": "189 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-2.png",
+						"ttl": " Джем Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega, ",
+						"rating": 4.8,
+						"price": {
+							"vol": "270 г",
+							"now": "280 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-3.png",
+						"ttl": "Добрый Кола",
+						"rating": 4,
+						"price": {
+							"now": "79 ₽",
+							"vol": "1 л"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-4.png",
+						"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+						"rating": 4,
+						"price": {
+							"vol": "900 мл",
+							"now": "109 ₽"
+						}
+					}
+				]
+			}
+		},
+		"choice": {
+			"head": {
+				"ttl": {
+					"tagName": "h2",
+					"txt": "Выбор покупателей",
+					"class": "h3"
+				},
+				"link": {
+					"url": "#",
+					"ttl": "Смотреть все"
+				},
+				"sliderBtn": true
+
+			},
+			"products": {
+				"list": [
+					{
+						"sale": "-20%",
+						"fav": true,
+						"img": "images/b-products-carousel/product-5.png",
+						"ttl": "Skittles драже",
+						"rating": 4.5,
+						"price": {
+							"vol": "38 г",
+							"now": "90 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-6.png",
+						"ttl": " Печенье Choco-Pie",
+						"rating": 4.8,
+						"price": {
+							"vol": "12 шт",
+							"now": "280 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-7.png",
+						"ttl": "Хлеб American Sandwich",
+						"rating": 1,
+						"price": {
+							"now": "79 ₽",
+							"vol": "470 г"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-1.png",
+						"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+						"rating": 4,
+						"price": {
+							"vol": "270 г",
+							"now": "280 ₽"
+						}
+					},
+					{
+						"sale": "-20%",
+						"fav": true,
+						"img": "images/b-products-carousel/product-5.png",
+						"ttl": "Skittles драже",
+						"rating": 4.5,
+						"price": {
+							"vol": "38 г",
+							"now": "90 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-6.png",
+						"ttl": " Печенье Choco-Pie",
+						"rating": 4.8,
+						"price": {
+							"vol": "12 шт",
+							"now": "280 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-7.png",
+						"ttl": "Хлеб American Sandwich",
+						"rating": 1,
+						"price": {
+							"now": "79 ₽",
+							"vol": "470 г"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-1.png",
+						"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+						"rating": 4,
+						"price": {
+							"vol": "270 г",
+							"now": "280 ₽"
+						}
+					}
+				]
+			}
+		},
+		"last": {
+			"head": {
+				"ttl": {
+					"tagName": "h2",
+					"txt": "Недавно заказывали",
+					"class": "h3"
+				},
+				"link": {
+					"url": "#",
+					"ttl": "Смотреть все"
+				},
+				"sliderBtn": true
+
+			},
+			"products": {
+				"list": [
+					{
+						"fav": true,
+						"img": "images/b-products-carousel/product-1.png",
+						"ttl": "Молоко Домик в деревне 3.2%",
+						"rating": 4.5,
+						"price": {
+							"vol": "950 мл",
+							"now": "189 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-8.png",
+						"ttl": "Сыр Фета 40% мягкий",
+						"rating": 4.8,
+						"price": {
+							"vol": "270 г",
+							"now": "580 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-9.png",
+						"ttl": "Кукуру за Bonduelle",
+						"rating": 4,
+						"price": {
+							"now": "79 ₽",
+							"vol": "240 г"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-4.png",
+						"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+						"rating": 4,
+						"price": {
+							"vol": "900 мл",
+							"now": "109 ₽"
+						}
+					},
+					{
+						"fav": true,
+						"img": "images/b-products-carousel/product-1.png",
+						"ttl": "Молоко Домик в деревне 3.2%",
+						"rating": 4.5,
+						"price": {
+							"vol": "950 мл",
+							"now": "189 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-8.png",
+						"ttl": "Сыр Фета 40% мягкий",
+						"rating": 4.8,
+						"price": {
+							"vol": "270 г",
+							"now": "580 ₽"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-9.png",
+						"ttl": "Кукуру за Bonduelle",
+						"rating": 4,
+						"price": {
+							"now": "79 ₽",
+							"vol": "240 г"
+						}
+					},
+					{
+						"img": "images/b-products-carousel/product-4.png",
+						"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+						"rating": 4,
+						"price": {
+							"vol": "900 мл",
+							"now": "109 ₽"
+						}
+					}
+				]
+			}
+		},
+		"catalog": {
+			"head": {
+				"ttl": {
+					"tagName": "h2",
+					"txt": "Каталог",
+					"class": "h3"
+				}
+			},
+			"classItm": "b-catalog-sections__itm_4",
+			"list": [
+				{
+					"img": "images/b-catalog-sections/icon-1.svg",
+					"ttl": "Молочные продукты"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-2.svg",
+					"ttl": "Рыба, птица, мясо"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-3.svg",
+					"ttl": "Овощи, фрукты и ягоды"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-4.svg",
+					"ttl": "Кондитерские изделия"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-5.svg",
+					"ttl": "Готовые блюда"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-6.svg",
+					"ttl": "Зерновые и картофель"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-1.svg",
+					"ttl": "Молочные продукты"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-2.svg",
+					"ttl": "Рыба, птица, мясо"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-3.svg",
+					"ttl": "Овощи, фрукты и ягоды"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-4.svg",
+					"ttl": "Кондитерские изделия"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-5.svg",
+					"ttl": "Готовые блюда"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-6.svg",
+					"ttl": "Зерновые и картофель"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-1.svg",
+					"ttl": "Молочные продукты"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-2.svg",
+					"ttl": "Рыба, птица, мясо"
+				},
+				{
+					"img": "images/b-catalog-sections/icon-3.svg",
+					"ttl": "Овощи, фрукты и ягоды"
+				}
+			]
+		}
+	},
+	"partners": {
+		"head": {
+			"ttl": {
+				"tagName": "h3",
+				"txt": "Наши партнеры",
+				"class": "h3"
+			},
+			"sliderBtn": true
+		}
+	},
+	"faq": {
+		"head": {
+			"ttl": {
+				"tagName": "h3",
+				"txt": "Ответы на вопросы",
+				"class": "h3"
+			},
+			"sliderBtn": true
+		},
+		"swiper": true,
+		"parent": ".l-section",
+		"list": [
+			{
+				"ttl": "Как происходит доставка?",
+				"icon": "images/b-faq/icon-1.svg",
+				"iconPopup": "images/b-faq/icon-1-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Как я могу оплатить заказ?",
+				"icon": "images/b-faq/icon-2.svg",
+				"iconPopup": "images/b-faq/icon-2-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Почему заказ доставляется на следующий день?",
+				"icon": "images/b-faq/icon-3.svg",
+				"iconPopup": "images/b-faq/icon-3-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Что делать, если  я не могу забрать заказ в назначенное время?",
+				"icon": "images/b-faq/icon-4.svg",
+				"iconPopup": "images/b-faq/icon-4-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Как происходит доставка?",
+				"icon": "images/b-faq/icon-1.svg",
+				"iconPopup": "images/b-faq/icon-1-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Как я могу оплатить заказ?",
+				"icon": "images/b-faq/icon-2.svg",
+				"iconPopup": "images/b-faq/icon-2-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Почему заказ доставляется на следующий день?",
+				"icon": "images/b-faq/icon-3.svg",
+				"iconPopup": "images/b-faq/icon-3-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			},
+			{
+				"ttl": "Что делать, если  я не могу забрать заказ в назначенное время?",
+				"icon": "images/b-faq/icon-4.svg",
+				"iconPopup": "images/b-faq/icon-4-green.svg",
+				"answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+			}
+		]
+	},
+	"navCatalog": {
+		"section": [
+			{
+				"ttl": "Молочные продукты",
+				"subsection": [
+					{ "ttl": "Молоко",
+						"url": "catalog-sub-section.html"
+					},
+					{ "ttl": "Кефир" },
+					{ "ttl": "Йогурт" },
+					{ "ttl": "Молоко" },
+					{ "ttl": "Творог" },
+					{ "ttl": "Масло" },
+					{ "ttl": "Мороженое" },
+					{ "ttl": "Сливки" }
+				]
+			}
+		],
+		"list": [
+			{
+				"ttl": "Молочные продукты",
+				"subsection": [
+					{ "ttl": "Молоко",
+						"url": "catalog-sub-section.html"
+					},
+					{ "ttl": "Кефир" },
+					{ "ttl": "Йогурт" },
+					{ "ttl": "Молоко" },
+					{ "ttl": "Творог" },
+					{ "ttl": "Масло" },
+					{ "ttl": "Мороженое" },
+					{ "ttl": "Сливки" }
+				]
+			},
+			{
+				"ttl": "Рыба, птица, мясо",
+				"subsection": [
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" }
+				]
+			},
+			{
+				"ttl": "Овощи, фрукты иягоды",
+				"subsection": [
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" }
+				]
+			},
+			{
+				"ttl": "Кондитерские изделия",
+				"subsection": [
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" }
+				]
+			},
+			{
+				"ttl": "Готовые блюда",
+				"subsection": [
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" }
+				]
+			},
+			{
+				"ttl": "Молочные продукты",
+				"subsection": [
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" },
+					{ "ttl": "Подраздел" }
+				]
+			}
+		]
+	},
+	"navCatalogNotSubsection": {
+		"list": [
+			{
+				"ttl": "Молочные продукты"
+			},
+			{
+				"ttl": "Рыба, птица, мясо"
+			},
+			{
+				"ttl": "Овощи, фрукты иягоды"
+			},
+			{
+				"ttl": "Кондитерские изделия"
+			},
+			{
+				"ttl": "Готовые блюда"
+			},
+			{
+				"ttl": "Молочные продукты"
+			}
+		]
+	},
+	"catalog": {
+		"list": [
+			{
+				"sale": "-20%",
+				"hasCart": true,
+				"fav": true,
+				"img": "images/b-catalog/product-1.png",
+				"ttl": "Молоко Домик в деревне 3.2%",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"old": "239 ₽",
+					"now": "189 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-2.png",
+				"ttl": "ЭкоНива Молоко для питания детей 3,2%",
+				"rating": 4.5,
+				"price": {
+					"vol": "1 л",
+					"now": "68 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-3.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-4.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-5.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-6.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"sale": "-20%",
+				"hasCart": true,
+				"fav": true,
+				"img": "images/b-catalog/product-1.png",
+				"ttl": "Молоко Домик в деревне 3.2%",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"old": "239 ₽",
+					"now": "189 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-2.png",
+				"ttl": "ЭкоНива Молоко для питания детей 3,2%",
+				"rating": 4.5,
+				"price": {
+					"vol": "1 л",
+					"now": "68 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-3.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-4.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-5.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			},
+			{
+				"img": "images/b-catalog/product-6.png",
+				"ttl": "Сегодня и всегда Молоко 2,5 %",
+				"rating": 4.5,
+				"price": {
+					"vol": "950 мл",
+					"now": "98 ₽"
+				}
+			}
+		]
+	},
+	"productsSimilar": {
+		"head": {
+			"ttl": {
+				"tagName": "h2",
+				"txt": "Похожие товары",
+				"class": "h3"
+			},
+			"sliderBtn": true
+
+		},
+		"products": {
+			"list": [
+				{
+					"sale": "-20%",
+					"fav": true,
+					"img": "images/b-products-carousel/product-1.png",
+					"ttl": "Молоко Домик в деревне 3.2%",
+					"rating": 4.5,
+					"price": {
+						"vol": "950 мл",
+						"old": "239 ₽",
+						"now": "189 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-2.png",
+					"ttl": " Джем Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega, ",
+					"rating": 4.8,
+					"price": {
+						"vol": "270 г",
+						"now": "280 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-3.png",
+					"ttl": "Добрый Кола",
+					"rating": 4,
+					"price": {
+						"now": "79 ₽",
+						"vol": "1 л"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-4.png",
+					"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+					"rating": 4,
+					"price": {
+						"vol": "900 мл",
+						"now": "109 ₽"
+					}
+				},
+				{
+					"sale": "-20%",
+					"fav": true,
+					"img": "images/b-products-carousel/product-1.png",
+					"ttl": "Молоко Домик в деревне 3.2%",
+					"rating": 4.5,
+					"price": {
+						"vol": "950 мл",
+						"old": "239 ₽",
+						"now": "189 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-2.png",
+					"ttl": " Джем Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega,  Mr. Djemius ZERO. Ultra, Mega, ",
+					"rating": 4.8,
+					"price": {
+						"vol": "270 г",
+						"now": "280 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-3.png",
+					"ttl": "Добрый Кола",
+					"rating": 4,
+					"price": {
+						"now": "79 ₽",
+						"vol": "1 л"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-4.png",
+					"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+					"rating": 4,
+					"price": {
+						"vol": "900 мл",
+						"now": "109 ₽"
+					}
+				}
+			]
+		}
+	},
+	"productsAlso": {
+		"head": {
+			"ttl": {
+				"tagName": "h2",
+				"txt": "С этим товаром покупают",
+				"class": "h3"
+			},
+			"sliderBtn": true
+
+		},
+		"products": {
+			"list": [
+				{
+					"sale": "-20%",
+					"fav": true,
+					"img": "images/b-products-carousel/product-5.png",
+					"ttl": "Skittles драже",
+					"rating": 4.5,
+					"price": {
+						"vol": "38 г",
+						"now": "90 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-6.png",
+					"ttl": " Печенье Choco-Pie",
+					"rating": 4.8,
+					"price": {
+						"vol": "12 шт",
+						"now": "280 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-7.png",
+					"ttl": "Хлеб American Sandwich",
+					"rating": 1,
+					"price": {
+						"now": "79 ₽",
+						"vol": "470 г"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-1.png",
+					"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+					"rating": 4,
+					"price": {
+						"vol": "270 г",
+						"now": "280 ₽"
+					}
+				},
+				{
+					"sale": "-20%",
+					"fav": true,
+					"img": "images/b-products-carousel/product-5.png",
+					"ttl": "Skittles драже",
+					"rating": 4.5,
+					"price": {
+						"vol": "38 г",
+						"now": "90 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-6.png",
+					"ttl": " Печенье Choco-Pie",
+					"rating": 4.8,
+					"price": {
+						"vol": "12 шт",
+						"now": "280 ₽"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-7.png",
+					"ttl": "Хлеб American Sandwich",
+					"rating": 1,
+					"price": {
+						"now": "79 ₽",
+						"vol": "470 г"
+					}
+				},
+				{
+					"img": "images/b-products-carousel/product-1.png",
+					"ttl": "Агрокомплекс Молоко 1,5% безлактозное",
+					"rating": 4,
+					"price": {
+						"vol": "270 г",
+						"now": "280 ₽"
+					}
+				}
+			]
+		}
+	},
+	"cartProductList": {
+		"list": [
+			{
+				"fav": true,
+				"img": "images/b-product/img-1.png",
+				"ttl": "Молоко Домик в деревне 3.2%",
+				"rating": 4.5,
+				"price": {
+					"now": "189 ₽",
+					"old": "239 ₽",
+					"vol": "950 мл"
+				}
+			},
+			{
+				"img": "images/b-product/img-2.png",
+				"ttl": "Сыр Фета 40% мягкий",
+				"rating": 4.5,
+				"price": {
+					"now": "599 ₽",
+					"vol": "200 г"
+				}
+			},
+			{
+				"img": "images/b-product/img-3.png",
+				"ttl": "Масло сливочное 82,5% Вурнарское",
+				"rating": 4.5,
+				"price": {
+					"now": "59₽",
+					"vol": "100 г"
+				}
+			},
+			{
+				"img": "images/b-product/img-4.png",
+				"ttl": "Кукуруза Bonduelle",
+				"rating": 4.5,
+				"price": {
+					"now": "127 ₽",
+					"old": "99 239 ₽",
+					"vol": "1000г"
+				}
+			},
+			{
+				"img": "images/b-product/img-5.png",
+				"ttl": "Skittles драже",
+				"rating": 4.5,
+				"price": {
+					"now": "89 ₽",
+					"vol": "1 шт"
+				}
+			},
+			{
+				"img": "images/b-product/img-6.png",
+				"ttl": "Хлеб American Sandwich",
+				"rating": 4.5,
+				"price": {
+					"now": "189 ₽",
+					"old": "156  ₽",
+					"vol": "1 шт"
+				}
+			}
+		]
+	},
+	"orderProducts": {
+		"list": [
+			{
+				"class": "b-product_phone-flex",
+				"classItem": " b-cart-products__itm_no-border",
+				"favHide": true,
+				"counterHide": true,
+				"removeHide": true,
+				"count": {
+					"num": 2,
+					"vol": "950 мл",
+					"subtotal": "478 ₽"
+				},
+				"classPict": "b-product__pict_sm",
+				"img": "images/b-product/img-1.png",
+				"ttl": "Молоко Домик в деревне 3.2%"
+			},
+			{
+				"class": "b-product_phone-flex",
+				"classItem": " b-cart-products__itm_no-border",
+				"favHide": true,
+				"counterHide": true,
+				"removeHide": true,
+				"count": {
+					"num": 2,
+					"vol": "100 г",
+					"subtotal": "478 ₽"
+				},
+				"classPict": "b-product__pict_sm",
+				"img": "images/b-product/img-2.png",
+				"ttl": "Сыр Фета 40% мягкий"
+			},
+			{
+				"class": "b-product_phone-flex",
+				"classItem": " b-cart-products__itm_no-border",
+				"favHide": true,
+				"counterHide": true,
+				"removeHide": true,
+				"count": {
+					"num": 2,
+					"vol": "100 г",
+					"subtotal": "478 ₽"
+				},
+				"classPict": "b-product__pict_sm",
+				"img": "images/b-product/img-3.png",
+				"ttl": "Масло сливочное 82,5% Вурнарское"
+			},
+			{
+				"class": "b-product_phone-flex",
+				"classItem": " b-cart-products__itm_no-border",
+				"favHide": true,
+				"counterHide": true,
+				"removeHide": true,
+				"count": {
+					"num": 2,
+					"vol": "1000г",
+					"subtotal": "478 ₽"
+				},
+				"classPict": "b-product__pict_sm",
+				"img": "images/b-product/img-4.png",
+				"ttl": "Кукуруза Bonduelle"
+			},
+			{
+				"class": "b-product_phone-flex",
+				"classItem": " b-cart-products__itm_no-border",
+				"favHide": true,
+				"counterHide": true,
+				"removeHide": true,
+				"count": {
+					"num": 2,
+					"vol": "1 шт",
+					"subtotal": "478 ₽"
+				},
+				"classPict": "b-product__pict_sm",
+				"img": "images/b-product/img-5.png",
+				"ttl": "Skittles драже"
+			},
+			{
+				"class": "b-product_phone-flex",
+				"classItem": " b-cart-products__itm_no-border",
+				"favHide": true,
+				"counterHide": true,
+				"removeHide": true,
+				"count": {
+					"num": 2,
+					"vol": "1 шт",
+					"subtotal": "478 ₽"
+				},
+				"classPict": "b-product__pict_sm",
+				"img": "images/b-product/img-6.png",
+				"ttl": "Хлеб American Sandwich"
+			}
+		]
+	}
+}

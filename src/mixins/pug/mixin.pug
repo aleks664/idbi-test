@@ -1,0 +1,65 @@
+- var id = 0
+mixin icon(name)
+	- mod = mod || ''
+	- clc = clc || ''
+	svg(class="icon icon-" + name)&attributes(attributes)
+		use(xlink:href=`${baseDir}images/sprite.svg#${name}`)
+mixin phone(data)
+	- href = data.phone.replace(/[^0-9\+]/g, '')
+	a&attributes(attributes)(href="tel:"+href)
+		if data.icon
+			+icon(data.icon)(class=data.classIcon)
+		=data.phone
+mixin picture(data)
+	- media = data.media == false ? false : true
+	- webp = data.webp == false ? false : true
+	- retina = data.retina == false ? false : true
+	- alt = data.alt ? data.alt: 'Название картинки'
+	- img = data.img
+	- src = img.replace(/\.jp[e]?g|.png/g, '')
+	- type = img.replace(src+'.', '')
+	- loading = data.loading ? data.loading: 'lazy'
+	- classImg = data.class ? data.class: false;
+	picture&attributes(attributes)
+		if media
+			- imgDefault = webp ? `${src}-s.webp`: `${src}-s.${type}`;
+			if webp
+				- imgL = 	retina ? `${src}.webp 1x, ${src}@2x.webp 2x` : `${src}.webp`
+				- imgM = 	retina ? `${src}-m.webp 1x, ${src}-m@2x.webp 2x` : `${src}-m.webp`
+				- imgS = 	retina ? `${src}-s.webp 1x, ${src}-s@2x.webp 2x` : `${src}-s.webp`
+				source(media='(min-width: 992px)' srcset=imgL type='image/webp')
+				source(media='(max-width: 991px) and (min-width: 768px)' srcset=imgM type='image/webp')
+				source(media='(max-width: 767px)' srcset=imgS  type='image/webp')
+			- imgL =  retina ? `${src}.${type} 1x, ${src}@2x.${type} 2x` : `${src}.${type}`
+			- imgM =  retina ? `${src}-m.${type} 1x, ${src}-m@2x.${type} 2x` : `${src}-m.${type}`
+			- imgS =  retina ? `${src}-s.${type} 1x, ${src}-s@2x.${type} 2x` : `${src}-s.${type}`
+			source(media='(min-width: 992px)' srcset=imgL type='image/jpeg')
+			source(media='(max-width: 991px) and (min-width: 768px)' srcset=imgM type='image/jpeg')
+			img(
+				width=data.width
+				height=data.height
+				src=imgDefault
+				srcset=imgS
+				alt=alt
+				loading=loading
+				class=classImg
+			)
+		else
+			- imgDefault = webp ? `${src}.webp`: `${src}.${type}`;
+			if webp
+				- img =  retina ? `${src}.webp 1x, ${src}@2x.webp 2x` : `${src}.webp`
+				source( srcset=img type='image/webp')
+			- img =  retina ? `${src}.${type} 1x, ${src}@2x.${type} 2x` : `${src}.${type}`
+			source(srcset=img type='image/jpeg')
+			img(
+				width=data.width
+				height=data.height
+				src=imgDefault
+				srcset=img
+				alt=alt
+				loading=loading
+				class=classImg
+			)
+mixin btnFav(data)
+	button(tupe="button").btn-fav&attributes(attributes)
+		+icon('heart')._icon
