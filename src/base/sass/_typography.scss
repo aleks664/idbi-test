@@ -1,11 +1,23 @@
 @mixin base-text-style () {
 	font-size: 14px;
-	line-height: 1.4;
+	line-height: (17/14);
 	font-weight: normal;
 	font-style: normal;
 	font-family: $font-family-base;
+}
+@mixin base-text-h1 () {
+	font-size: 30px;
+	line-height: (117/96);
+	font-weight: 300;
+	font-style: normal;
+	font-family: $font-family-base;
+	@include media-breakpoint-up(md) {
+		font-size: 50px;
+	}
 	@include media-breakpoint-up(lg) {
-		font-size: 16px;
-		line-height: 1.5;
+		font-size: 70px;
+	}
+	@include media-breakpoint-up(xxl) {
+		font-size: 96px;
 	}
 }

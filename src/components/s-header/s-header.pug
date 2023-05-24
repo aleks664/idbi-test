@@ -1,0 +1,18 @@
+include ../b-main-menu/b-main-menu
+header.s-header.-pos-abs
+	._container
+		+bMainMenu(mainMenu)#main-menu
+		._btns
+			a(href="#" role='button' data-menu-toggle)._btn.-burger
+				._btn-line
+			a(href="#")._btn
+				+icon('search')._btn-icon
+			a(href="#")._btn
+				+icon('user')._btn-icon
+			a(href="#")._btn
+				+icon('heart')._btn-icon
+				._count 9
+			a(href="#")._btn
+				+icon('basket')._btn-icon
+				._count 9
+

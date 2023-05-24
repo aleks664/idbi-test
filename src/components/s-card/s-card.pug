@@ -1,0 +1,45 @@
+- var id = 0;
+- var n = 0;
+mixin sCard(data)
+	a(href="#").s-card&attributes(attributes)
+		._picts
+			if data.fav
+				+btnFav()._fav.is-active
+			else
+				+btnFav()._fav
+			._imgs
+				each img, i in data.images
+					- img.class = 's-card__img'
+					if 	data.images.length > 1
+						- id++
+						- img.id = `product-card-${id}`
+					if i === 0
+						- img.class = 's-card__img is-active'
+					+picture(img)
+			if data.images.length > 1
+				._pager
+					each page, i in data.images
+						- n++
+						._itm(class=i===0? 'is-active': 0, data-hover-image=`product-card-${n}`)
+		._desc
+			._ind
+					if data.sizes
+						._sizes
+							each size in data.sizes
+								._size(class=size.disabled? 'is-disabled': '')=size.ttl
+					._btn-cart
+						|в корзину
+						+icon('basket')._btn-cart-icon
+			if data.new
+				._label новинка
+			._ttl=data.title
+			._chars
+				+price(data.price)._price
+				if data.colors
+					._colors
+						each color in data.colors
+							._color(style=`background-color: ${color.color};`)
+
+
+
+

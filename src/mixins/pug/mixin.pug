@@ -52,6 +52,7 @@ mixin picture(data)
 			- img =  retina ? `${src}.${type} 1x, ${src}@2x.${type} 2x` : `${src}.${type}`
 			source(srcset=img type='image/jpeg')
 			img(
+				id=data.id
 				width=data.width
 				height=data.height
 				src=imgDefault
@@ -62,4 +63,10 @@ mixin picture(data)
 			)
 mixin btnFav(data)
 	button(tupe="button").btn-fav&attributes(attributes)
-		+icon('heart')._icon
+		+icon('heart-f')._icon
+mixin price(data)
+	.price&attributes(attributes)
+		if data.old
+			._old!=data.old
+		if data.now
+			._now!=data.now

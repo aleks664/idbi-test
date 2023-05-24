@@ -1,4 +1,162 @@
 .s-header {
 	flex: 0 0 auto;
-	font-size: 14px;
+	&.is-fixed &__container {
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: $light;
+		@include media-breakpoint-up(md) {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+	&_pos-abs {
+		position: absolute;
+		width: 100%;
+		z-index: 1000;
+	}
+	&__container {
+		width: 100%;
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		@include media-breakpoint-up(lg) {
+			padding: 33px 10px;
+		}
+		@include media-breakpoint-up(xxl) {
+			padding: 53px 80px;
+		}
+	}
+	&__btns {
+		display: flex;
+		width: 100%;
+		@include media-breakpoint-up(lg) {
+			width: auto;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		@include media-breakpoint-up(xxl) {
+			right: 80px;
+		}
+	}
+	&__btn {
+		color: $dark;
+		text-decoration: none;
+		position: relative;
+		padding: 10px 10px;
+		transition: color $base-time-animation;
+		display: flex;
+		align-items: center;
+		@include media-breakpoint-up(lg) {
+			padding: 10px 10px;
+		}
+		@include media-breakpoint-up(xxl) {
+			padding: 10px 23px;
+		}
+		&:hover {
+			color: $secondary-dark;
+		}
+		&-icon {
+			&.icon-search {
+				font-size: 20px;
+			}
+			&.icon-user {
+				font-size: 20px;
+			}
+			&.icon-heart {
+				font-size: 19px;
+			}
+			&.icon-basket {
+				font-size: 22px;
+			}
+		}
+		&-line {
+			width: 25px;
+			height: 2px;
+			border-radius: 3px;
+			background-color: $dark;
+			position: absolute;
+			@include center;
+			transition: background-color $base-time-animation;
+			&:after,
+			&:before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background-color: $dark;
+				border-radius: inherit;
+				left: 0%;
+				transition: transform $base-time-animation;
+			}
+			&:after {
+				bottom: -6px;
+			}
+			&:before {
+				top: -6px;
+			}
+		}
+		.is-active &-line {
+			background-color: transparent;
+			&:before {
+				transform: rotate(-45deg);
+				top: 0;
+			}
+			&:after {
+				transform: rotate(45deg);
+				top: 0;
+			}
+		}
+		&_burger {
+			margin-right: auto;
+			z-index: 10001;
+			@include media-breakpoint-up(lg) {
+				display: none;
+
+			}
+		}
+	}
+	&__count {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 16px;
+		height: 16px;
+		border-radius: 100%;
+		background-color: $warning;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 12px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: $dark;
+	}
+}
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+	}
+}
+@keyframes hideInUp {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

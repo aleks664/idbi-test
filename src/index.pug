@@ -5,4 +5,14 @@ append variables
 	- var pageUrl = '/'
 
 block content
+	include components/s-main-banner/s-main-banner
+	include components/s-colllections/s-colllections
+	include components/s-products-carousel/s-products-carousel
+	+sMainBanner(mainBanner)
+	+sCollections(collections)
+	+sProductsCarousel(sProductCollection)
+	br
+	br
+	br
+	br
 

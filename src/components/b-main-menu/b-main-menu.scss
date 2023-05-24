@@ -1,0 +1,77 @@
+.b-main-menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: $light;
+	left: 0;
+	z-index: 1000;
+	padding: 80px 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	transition: transform $base-time-animation;
+	transform: translateX(-100%);
+	&.is-open {
+		transform: translateX(0);
+	}
+	@include media-breakpoint-up(lg) {
+		background-color: transparent;
+		transform: none;
+		z-index: auto;
+		position: static;
+		display: flex;
+		padding: 0 130px;
+		align-items: center;
+		justify-content: center;
+		height: 44px;
+		width: 100%;
+	}
+	@include media-breakpoint-up(xxl) {
+		padding: 0 270px;
+	}
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		@include media-breakpoint-up(lg) {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+	}
+	&__itm {
+		@include media-breakpoint-up(lg) {
+		    padding: 0 10px;
+		}
+		@include media-breakpoint-up(xxl) {
+			padding: 0 23px;
+		}
+	}
+	&__lnk {
+		position: relative;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding: 5px  0 ;
+		display: block;
+		color: $dark;
+		text-decoration: none;
+		&:hover {
+			&:after {
+				width: 100%;
+			}
+		}
+		&:after {
+			content: '';
+			width: 0;
+			height: 3px;
+			background-color: $dark;
+			bottom: 0;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			transition: width $base-time-animation;
+		}
+
+	}
+}

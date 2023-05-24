@@ -1,0 +1,6 @@
+import './b-main-menu/b-main-menu'
+import './s-header/s-header'
+import './s-main-banner/s-main-banner'
+import './s-colllections/s-colllections'
+import './s-products-carousel/s-products-carousel'
+import './s-card/s-card'

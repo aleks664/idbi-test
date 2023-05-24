@@ -1,0 +1,92 @@
+.s-products-carousel {
+	padding-top: 30px;
+	&__title {
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 1.32;
+	}
+	&__container {
+		margin: 0 auto;
+	}
+	&__btns {
+		display: flex;
+		justify-content: flex-end;
+		clear: both;
+		gap: 12px;
+		padding-right: 10px;
+		@include media-breakpoint-up(lg) {
+			padding-right: (78/1920*100vw);
+		}
+	}
+	&__btn {
+		cursor: pointer;
+		padding: 10px;
+		font-size: 12px;
+		margin-bottom: 30px;
+		transition:  opacity $base-time-animation;
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 54px;
+		}
+		&.swiper-button-disabled {
+			opacity: 0.3;
+			cursor: default;
+		}
+	}
+	&__btn_prev:not(.swiper-button-disabled):hover &__icon {
+		margin-left: -10px;
+		margin-right: 10px;
+	}
+	&__btn_next:not(.swiper-button-disabled):hover &__icon {
+		margin-right: -10px;
+		margin-left: 10px;
+	}
+	&__icon {
+		display: block;
+		transition: margin $base-time-animation;
+	}
+	&__wrap {
+		position: relative;
+		overflow: hidden;
+		padding-left: 30px;
+		@include media-breakpoint-up(lg) {
+			padding-left: (210/1920*100vw);
+		}
+	}
+	&__lnk-catalog {
+		position: absolute;
+		bottom: 48px;
+		font-weight: 300;
+		text-decoration: none;
+		transition: color $base-time-animation;
+		color: $dark;
+		text-transform: uppercase;
+		transform: rotate(-90deg);
+		transform-origin: 0% 0%;
+		display: inline-flex;
+		align-items: center;
+		left: 10px;
+		font-size: 12px;
+		@include media-breakpoint-up(lg) {
+			left: (120/1920*100vw);
+			font-size: 14px;
+		}
+		&:hover {
+			color: $secondary-dark;
+		}
+		&-icon {
+			margin-left: 5px;
+			font-size: 8px;
+
+		}
+	}
+	&__swiper {
+		margin-left: -9px;
+		margin-right: -9px;
+	}
+	&__swiper-slide {
+		padding: 0 9px;
+	}
+}

@@ -1,0 +1,9 @@
+mixin bMainMenu(data)
+	nav.b-main-menu&attributes(attributes)
+		ul._list
+			each itm in data.menu
+				li._itm
+					a(
+						href=itm.url,
+						class=itm.url === pageUrl ? 'is-selected': ''
+					)._lnk=itm.ttl

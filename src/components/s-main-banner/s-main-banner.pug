@@ -1,0 +1,20 @@
+mixin sMainBanner(data)
+	.s-main-banner&attributes(attributes)
+		._swiper.swiper
+			._swiper-wrapper.swiper-wrapper
+				each slide, i in data.slides
+					._swiper-slide.swiper-slide
+						- slide.img.class = 's-main-banner__img'
+						+picture(slide.img)._picture
+						._container.l-container
+							._subtitle=slide.subtitle
+							if i === 0
+								h1._title=slide.title
+							else
+								._title=slide.title
+							a(href=slide.lnk.url)._lnk=slide.lnk.ttl
+								+icon(slide.lnk.icon.icon)._icon
+			._swiper-button-prev.swiper-button-prev предыдущий
+				+icon('arrow-prev')._nav-icon
+			._swiper-button-next.swiper-button-next следующий
+				+icon('arrow-next')._nav-icon

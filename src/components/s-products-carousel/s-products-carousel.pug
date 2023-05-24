@@ -1,0 +1,21 @@
+include ../s-card/s-card
+mixin sProductsCarousel(data)
+	.s-products-carousel&attributes(attributes)
+		._container
+			h2._title!=data.title
+			._wrap
+
+				._btns
+					._btn.-prev.js-prev
+						+icon('arrow-prev')._icon
+					._btn.-next.js-next
+						+icon('arrow-next')._icon
+				._swiper.swiper
+					._swiper-wrapper.swiper-wrapper
+						each slide, i in data.slides
+							._swiper-slide.swiper-slide
+								+sCard(slide)
+				if data.btn
+					a(href=data.btn.url)._lnk-catalog=data.btn.ttl
+						+icon('arrow-next')._lnk-catalog-icon
+

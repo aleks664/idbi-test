@@ -1,0 +1,12 @@
+mixin sCollections(data)
+	.s-collections&attributes(attributes)
+		._swiper.swiper
+			._swiper-wrapper.swiper-wrapper
+				each slide, i in data.slides
+					a(href="#")._swiper-slide.swiper-slide
+						- slide.img.class = 's-collections__img'
+						._title=slide.title
+						+picture(slide.img)._picture
+		if data.bottomLine
+			+picture(data.bottomLine.img)._picture
+

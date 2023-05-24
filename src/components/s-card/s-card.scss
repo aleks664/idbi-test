@@ -1,0 +1,140 @@
+.s-card {
+	position: relative;
+	width: 100%;
+	color: $dark;
+	text-decoration: none;
+	&__fav {
+		top: 24px;
+		right: 29px;
+		z-index: 10;
+		position: absolute;
+	}
+	&__picts {
+		position: relative;
+	}
+	&__imgs {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: percentage(585/414);
+	}
+	&__img {
+		display: block;
+		width: 100%;
+		top: 0;
+		left: 0;
+		height: 100%;
+		object-fit: contain;
+		position: absolute;
+		transition: opacity $base-time-animation, visibility $base-time-animation;
+		&:not(.is-active) {
+			visibility: hidden;
+			opacity: 0;
+		}
+	}
+	&:hover &__pager {
+		opacity: 1;
+	}
+	&__pager {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 3;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		gap: 1px;
+		opacity: 0;
+		transition: opacity $base-time-animation;
+	}
+	&__itm {
+		flex: 1 0 0%;
+		border-bottom: 4px solid #D0DFDC;
+		transition: border-bottom-color $base-time-animation;
+		&.is-active {
+			border-bottom-color: $dark;
+		}
+	}
+	&__desc {
+		position: relative;
+		padding-top: 14px;
+	}
+	&__label {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 11px;
+		line-height: (13/11);
+		font-weight: 400;
+		text-transform: uppercase;
+		padding: 5px 13px 6px;
+		background-color: $secondary;
+	}
+	&__ttl {
+		font-weight: 300;
+		text-transform: uppercase;
+		padding-right: 87px;
+	}
+	&__chars {
+		margin-top: 1px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__colors {
+		display: flex;
+		margin-right: 27px;
+	}
+	&__color {
+		width: 18px;
+		height: 18px;
+		border-radius: 100%;
+		flex: 0 0 18px;
+		margin-left: 6px;
+	}
+	&:hover &__ind {
+		padding: 15px 11px;
+		max-height: 73px;
+	}
+	&__ind {
+		bottom: 100%;
+		width: 100%;
+		overflow: hidden;
+		left: 0;
+		position: absolute;
+		background-color: #FFF;
+		text-align: center;
+		max-height: 0;
+		transition: max-height $base-time-animation, padding $base-time-animation;
+	}
+	&__sizes {
+		display: flex;
+		flex-flow: row wrap;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: (15/12);
+		justify-content: center;
+	}
+	&__size {
+		margin: 0 3px;
+		&.is-disabled {
+			color: $light-gray;
+		}
+	}
+	&__btn-cart {
+		position: relative;
+		z-index: 10;
+		cursor: pointer;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-top: 5px;
+		display: inline-flex;
+		align-items: center;
+		transition: color $base-time-animation;
+		&:hover {
+			color: $secondary-dark;
+		}
+		&-icon {
+			font-size: 23px;
+			margin-left: 3px;
+		}
+	}
+}
