@@ -4,7 +4,6 @@ const sProductsCarsousel = () => {
 	sections.forEach($section => {
 		const $prev = $section.querySelector('.js-prev');
 		const $next = $section.querySelector('.js-next');
-		console.log($next)
 		// eslint-disable-next-line no-unused-vars
 		const swiper = new Swiper($section.querySelector('.s-products-carousel__swiper'), {
 			modules: [Navigation],
